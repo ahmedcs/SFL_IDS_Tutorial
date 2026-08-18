@@ -1,0 +1,17 @@
+# Practical Federated Learning (FL) Tutorial
+
+This repo contains the slides, codes and datasets used for the talk and tutorial titled "Advancing Federated Learning in Practice: An Introduction and a Tutorial on Its Application to Cybersecurity"
+
+# Abstract
+Federated Learning (FL) has emerged as a transformative paradigm in distributed machine learning, enabling collaborative model training across a multitude of edge devices, such as mobile phones and IoT systems, while preserving user privacy. As the proliferation of edge computing intersects with stringent data privacy regulations, FL provides an innovative solution to leverage the wealth of data generated at the network edge. However, real-world deployment presents unique challenges, including heterogeneous data distributions, varying computational and communication resources, dynamic device availability, and the need for cross-platform implementations.  I will introduce REFL, a resource-efficient FL framework that decouples the collection of participant updates from model aggregation, intelligently selecting participants based on their likelihood of future availability to maximize resource utilization. Then, I will present two works on energy-efficient federated learning and adversarial proof techniques to mitigate malicious updates. Then, we will have a hands-on tutorial on a Robust and Secure FL-based Intrusion Detection System using an online google co-lab environment. Attendees are advised to bring their laptop to follow the tutorial.
+
+
+### Hands on Robust FL-based Intrusion Detection System 
+In the context of network security, FL can be used to collaboratively train Intrusion Detection System (IDS) models across multiple organizations, virtually extending the local dataset of each participant. Among the new challenges raised by this approach, the heterogeneity of the clients’ environments induce consequent differences in the data distributions, and therefore contributions. Further, identifying and mitigating malicious contributions is made more complex in heterogeneous environments.  This hands-on introduces the audience to the principles of FL and its application to network security, and more specifically to build Collaborative Intrusion Detection Systems (CIDSs) using FL. We cover the issues raised by using FL in the context of network security, with a particular focus on poisoning attacks.
+
+## Conveyer
+
+### [Ahmed M. A. Sayed](https://ahmedcs.github.io)
+
+Ahmed M. A. Sayed is an Associate Professor at Queen Mary University of London, UK. He leads the Scalable, Adaptive, Yet Efficient Distributed (SAYED) Systems Group at QMUL. He received his Ph.D. in Computer Science and Engineering from the Hong Kong University of Science and Technology in 2017. Formerly, he was a Research Scientist at KAUST in Saudi Arabia and a Senior Researcher at Huawei's Future Networks Lab in Hong Kong.  He is an investigator on several UK and international grants totalling nearly USD 1.8 million in funding. His research interests lie in the intersection of distributed systems, computer networks, and machine learning. He published more than 155 papers on these topics. His work appears in top-tier conferences and journals, including NeurIPS, AAAI, ICLR, MLSys, ACM EuroSys, IEEE INFOCOM, IEEE ICDCS, IEEE ICC/Globecom, IEEE/ACM ToN, IEEE IoTJ, IEEE TCC, IEEE TBD, IEEE TCSS, IEEE TIFS, Elsevier FGCS, IoT, and Computer Networks.
+
